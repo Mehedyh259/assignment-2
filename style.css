@@ -194,6 +194,12 @@ body {
     width: 48%;
 }
 
+.custom-form-area .section-title {
+    font-size: 28px;
+    line-height: 70px;
+    font-weight: 600;
+}
+
 .custom-form-area input,
 .custom-form-area textarea {
     box-sizing: border-box;
