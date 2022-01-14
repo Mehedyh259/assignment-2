@@ -194,8 +194,9 @@ body {
     width: 48%;
 }
 
-.custom-form-area input {
-    height: 50px;
+.custom-form-area input,
+.custom-form-area textarea {
+    box-sizing: border-box;
     width: 100%;
     border: 1px solid #b4b1b1;
     border-radius: 5px;
@@ -204,13 +205,8 @@ body {
     font-size: 15px;
 }
 
-.custom-form-area textarea {
-    width: 100%;
-    border: 1px solid #b4b1b1;
-    border-radius: 5px;
-    padding: 15px;
-    margin-top: 1rem;
-    font-size: 15px;
+.custom-form-area input {
+    height: 50px;
 }
 
 
