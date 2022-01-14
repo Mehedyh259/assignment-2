@@ -304,6 +304,9 @@ footer {
     .sitenav ul li {
         margin-left: 0;
     }
+    .banner-content {
+        text-align: center;
+    }
     .red-button {
         margin-bottom: 25px;
     }
@@ -328,6 +331,9 @@ footer {
     }
     .sitenav ul li {
         margin-left: 0;
+    }
+    .banner-content {
+        text-align: center;
     }
     .red-button {
         margin-bottom: 25px;
