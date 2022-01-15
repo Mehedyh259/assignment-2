@@ -340,6 +340,9 @@ footer {
     .popular-collection {
         grid-template-columns: repeat(2, 1fr);
     }
+    .custom-form-area .section-title {
+        text-align: center;
+    }
 }
 
 
@@ -367,5 +370,8 @@ footer {
     }
     .popular-collection {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .custom-form-area .section-title {
+        text-align: center;
     }
 }
