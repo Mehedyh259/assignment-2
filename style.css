@@ -130,9 +130,6 @@ header>.container {
 
 .red-button i {
     margin-left: 7px;
-}
-
-.red-button i {
     animation: 1s linear mymove infinite;
 }
 
