@@ -31,7 +31,7 @@ body {
 }
 
 .half-div {
-    width: 50%;
+    width: 48%;
 }
 
 .red-button {
@@ -154,6 +154,31 @@ header>.container {
 /* banner area css end */
 
 
+/* Logo area start */
+
+.logo-area-start.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.logo-area {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid rgba(236, 233, 233, 0.794);
+    border-bottom: 1px solid rgba(236, 233, 233, 0.794);
+}
+
+.single-logo img {
+    width: 85px;
+    height: 40px;
+}
+
+
+/* Logo area end */
+
+
 /* popular collection css start */
 
 .popular-collection-area.container {
@@ -237,8 +262,13 @@ header>.container {
     margin: 0 auto;
 }
 
+.custom-div-area>.flex-div {
+    align-items: center;
+}
+
 .custom-image-area img {
     width: 100%;
+    height: 100%;
 }
 
 .custom-form-area {
@@ -247,7 +277,6 @@ header>.container {
 
 .custom-form-area .section-title {
     font-size: 28px;
-    line-height: 70px;
     font-weight: 600;
 }
 
@@ -258,7 +287,7 @@ header>.container {
     border: 1px solid #b4b1b1;
     border-radius: 5px;
     padding: 0 15px;
-    margin-top: 1rem;
+    margin-top: .8rem;
     font-size: 15px;
 }
 
@@ -334,6 +363,15 @@ footer {
     .half-div {
         width: 100%;
     }
+    .logo-area {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 34px;
+        row-gap: 21px;
+    }
+    .single-logo img {
+        width: 65px;
+    }
     .popular-collection {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -364,6 +402,15 @@ footer {
     }
     .half-div {
         width: 100%;
+    }
+    .logo-area {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 10px;
+    }
+    .single-logo img {
+        width: 51px;
     }
     .popular-collection {
         grid-template-columns: repeat(1, 1fr);
