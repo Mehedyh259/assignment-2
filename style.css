@@ -25,10 +25,11 @@ body {
     padding-bottom: 50px;
 }
 
-.container {
+
+/* .container {
     max-width: 1200px;
     margin: 0 auto;
-}
+} */
 
 .flex-div {
     display: flex;
@@ -49,6 +50,11 @@ body {
 
 
 /* Header area css start */
+
+header>.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .sitename>h3 {
     font-size: 24px;
@@ -103,6 +109,11 @@ body {
 
 /* animation area end */
 
+.banner-area.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .banner-content {
     width: 90%;
 }
@@ -153,6 +164,11 @@ body {
 
 
 /* popular collection css start */
+
+.popular-collection-area.container {
+    max-width: 1047px;
+    margin: 0 auto;
+}
 
 .popular-collection {
     display: grid;
@@ -225,6 +241,11 @@ body {
 
 /* Custom section css start */
 
+.custom-div-area.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
 .custom-image-area img {
     width: 100%;
 }
@@ -264,6 +285,11 @@ footer {
     background-color: #0A0826;
     color: #fff;
     text-align: center;
+}
+
+.footer-area.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-area h2 {
