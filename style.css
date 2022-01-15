@@ -132,7 +132,7 @@ header>.container {
     margin-left: 7px;
 }
 
-.red-button:hover i {
+.red-button i {
     animation: 1s linear mymove infinite;
 }
 
